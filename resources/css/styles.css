@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Header Styles */
+header {
+    background-color: #0b064d;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+.contact-details {
+    flex: 1; /* Take remaining space */
+}
+
+.profile-picture img {
+    width: 130px; /* Adjust image size */
+    height: 150px; /* Adjust image size */
+    border-radius: 70%; /* Make image round */
+}
+a {
+    color:azure;
+}
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 5px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
+/* Job Experience */
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    margin: 0 0 0 0;
+}
+.job h4 {
+    margin: 0 0 0 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
